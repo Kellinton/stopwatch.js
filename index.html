@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Cronômetro</title>
+</head>
+<body>     
+    <video autoplay muted loop id="video-background">
+        <source src="assets/video/black-eclipse-berserker-moewalls-com.mp4" type="video/mp4">
+    </video>
+    <div id="container">
+      <div id="cronometro-circulo">
+        <div class="info">
+          <a id="link">
+            <img id="img" src="" alt="">
+          </a>
+        </div>
+        <div id="cronometro-tempo">
+          <p id="horas"></p>
+          <p id="horaPonto"></p>
+          <p id="minutos"></p>
+          <p id="minutoPonto"></p>
+          <p id="segundos">00</p>
+        </div>
+      </div>
+      <div id="botoes">
+        <button id="reiniciar" title="Reiniciar"><i class="ri-loop-left-line"></i></button>
+        <button id="pausar" title="Pausar"><i class="ri-pause-mini-line"></i></button>
+        <button id="iniciar" title="Iniciar"><i class="ri-play-fill"></i></button>      
+      </div>
+    </div>
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
