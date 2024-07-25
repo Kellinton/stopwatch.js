@@ -2,6 +2,7 @@
 ## StopWatch -  Anime Berserk  𒌐
 
 
+
  
 Training the use of javascript to style page by creating a stopwatch with start, pause and restart function
 
